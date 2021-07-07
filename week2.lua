@@ -1,3 +1,35 @@
+table = {}
+
+table [12] = "Hello user!!"
+table [200] = "What is going on outside"
+table [341] = "Are you learning a new language"
+table [422] = "Bye, see you!!"
+
+for key  , value in pairs (table) do
+
+    print (key, value)
+
+end
+
+
+io.read()
+
+
+
+--[[
+
+
+C:\Users\Kyath\OneDrive\Bureau\summer>lua table2.lua
+12      Hello user!!
+341     Are you learning a new language
+422     Bye, see you!!
+200     What is going on outside
+]]
+
+
+
+
+
 aTable = {}
 
 for i = 1, 10 do
