@@ -87,7 +87,10 @@ You guess the correct number, Congrat!!
 
 
 local lives = 10
+math.randomseed(os.time())
+
 local randomNumber = math.random(1, 50)
+
 
 print("welcome to higher or lower than! ")
 
@@ -127,7 +130,6 @@ end
 end
 
 io.read()
-
 
 
 
